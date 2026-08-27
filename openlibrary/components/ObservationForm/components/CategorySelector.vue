@@ -127,7 +127,7 @@ export default {
          */
         displaySymbol: function(type) {
             if (this.allSelectedValues[type] && this.allSelectedValues[type].length) {
-                // &#10004; - Heavy checkmark
+                // ✔ - Heavy checkmark
                 return '✔';
             }
             return '•';
