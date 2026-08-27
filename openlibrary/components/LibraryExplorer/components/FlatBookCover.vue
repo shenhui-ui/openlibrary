@@ -32,6 +32,7 @@ import CONFIGS from '../../configs';
 import { hashCode } from '../utils.js';
 
 export default {
+    emits: ['load'],
     props: {
         book: {
             type: Object,
