@@ -16,6 +16,7 @@
  */
 export default {
     name: 'OLChip',
+    emits: ['update-selected'],
     props: {
         /**
          * Text that will be displayed by the chip.
